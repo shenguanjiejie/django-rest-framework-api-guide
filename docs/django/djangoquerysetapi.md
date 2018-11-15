@@ -6,7 +6,7 @@ QuerySet 类具有两个公有属性用于内省：
 
 `ordered`
 
-如果 `QuerySet` 是排好序的则为 `Tru`e —— 例如有一个 `order_by()` 子句或者模型有默认的排序。 否则为 `False` 。
+如果 `QuerySet` 是排好序的则为 `True` —— 例如有一个 `order_by()` 子句或者模型有默认的排序。 否则为 `False` 。
 
 `db`
 
